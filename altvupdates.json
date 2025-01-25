@@ -4,7 +4,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "GTAProjekt.zip",
-        "UpdateSourceArgs": "BenZockt/GTAProjekt.git",
+        "UpdateSourceArgs": "BenZockt/GTAProjekt",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
