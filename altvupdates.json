@@ -1,15 +1,24 @@
 [
     {
-        "UpdateStageName": "Server Download",
+        "UpdateStageName": "",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://BenZockt: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@github.com/BenZockt/GTAProjekt.git",
-        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": ".update.sh",
+        "UpdateSourceTarget": "./ALT:V/",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
-        "UpdateSourceConditionSetting": "ServerStream",
-        "UpdateSourceConditionValue": "preview-specificversion"
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "ExtractArchive",
+        "UpdateSourceArgs": "./repos/GTAProjekt",
+        "UpdateSourceTarget": "./ALT:V/",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
     }
-    
 ]

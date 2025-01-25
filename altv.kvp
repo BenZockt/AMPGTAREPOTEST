@@ -1,7 +1,7 @@
 Meta.DisplayName=ALTV
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author=BenZockt - Made with AMP Config Generator
+Meta.Author=BenZockt
 Meta.URL=https://athenaframework.com/tutorials/free/setup/installing-on-linux
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
@@ -10,7 +10,7 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
-Meta.AppConfigId=86572f23-5288-4ab3-be90-ca3949940e3f
+Meta.AppConfigId=18311ca0-f7c2-4457-a4e2-f96af7020811
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
