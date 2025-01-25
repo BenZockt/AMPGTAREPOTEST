@@ -1,7 +1,7 @@
 Meta.DisplayName=ALTV
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author=BenZockt
+Meta.Author=BenZockt - Made with AMP Config Generator
 Meta.URL=https://athenaframework.com/tutorials/free/setup/installing-on-linux
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
