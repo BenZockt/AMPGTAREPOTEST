@@ -3,7 +3,7 @@
         "UpdateStageName": "",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
-        "UpdateSourceData": ".update.sh",
+        "UpdateSourceData": "./altv/update.sh",
         "UpdateSourceTarget": "./ALT:V/",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
