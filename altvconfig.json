@@ -112,7 +112,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "NodeVersion",
         "IncludeInCommandLine": false,
-        "DefaultValue": "vv23.6.1",
+        "DefaultValue": "v23.6.1",
         "Placeholder": "v23.6.1",
         "EnumValues": {}
     },
