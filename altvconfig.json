@@ -192,6 +192,25 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Production Mode",
+        "Category": "Node.js App Runner:code",
+        "Subcategory": "App:settings:1",
+        "Description": "Wählt aus mit welchem Startparameter die App starten soll.",
+        "Keywords": "start,type",
+        "FieldName": "StartType",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "StartType",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Required": true,
+        "EnumValues": {
+            "": "--Please select--",
+            "dev": "dev",
+            "linux": "linux"
+        }
+    },
+    {
         "DisplayName": "App Name",
         "Category": "Node.js App Runner:code",
         "Subcategory": "App:settings:1",
