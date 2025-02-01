@@ -187,28 +187,9 @@
         "FieldName": "AppSetupCommands",
         "InputType": "text",
         "ParamFieldName": "AppSetupCommands",
-        "DefaultValue": "",
+        "DefaultValue": "npm install; npm run update",
         "Placeholder": "node setup.js | npm run build",
         "EnumValues": {}
-    },
-    {
-        "DisplayName": "Production Mode",
-        "Category": "Node.js App Runner:code",
-        "Subcategory": "App:settings:1",
-        "Description": "Wählt aus mit welchem Startparameter die App starten soll.",
-        "Keywords": "start,type",
-        "FieldName": "StartType",
-        "InputType": "enum",
-        "IsFlagArgument": false,
-        "ParamFieldName": "StartType",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "",
-        "Required": true,
-        "EnumValues": {
-            "": "--Please select--",
-            "dev": "dev",
-            "linux": "linux"
-        }
     },
     {
         "DisplayName": "App Name",
@@ -221,7 +202,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "ApplicationName",
         "IncludeInCommandLine": false,
-        "DefaultValue": "",
+        "DefaultValue": "scripts/runtime/index.js",
         "Placeholder": "index.js | build/main.js",
         "EnumValues": {}
     },
@@ -234,7 +215,7 @@
         "FieldName": "ApplicationLocation",
         "InputType": "text",
         "ParamFieldName": "ApplicationLocation",
-        "DefaultValue": "",
+        "DefaultValue": "altv-server",
         "EnumValues": {}
     },
     {
@@ -272,7 +253,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "CommandLineArgs",
         "IncludeInCommandLine": false,
-        "DefaultValue": "",
+        "DefaultValue": "--start",
         "Placeholder": "value1=foo value2=bar",
         "EnumValues": {}
     }
