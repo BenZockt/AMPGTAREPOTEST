@@ -10,7 +10,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "DownloadType",
         "IncludeInCommandLine": false,
-        "DefaultValue": "",
+        "DefaultValue": "Git repo",
         "Required": true,
         "EnumValues": {
             "": "--Please select--",
@@ -172,7 +172,7 @@
         "FieldName": "RunAppSetupCommands",
         "InputType": "checkbox",
         "ParamFieldName": "RunAppSetupCommands",
-        "DefaultValue": "false",
+        "DefaultValue": "true",
         "EnumValues": {
             "False": "false",
             "True": "true"
